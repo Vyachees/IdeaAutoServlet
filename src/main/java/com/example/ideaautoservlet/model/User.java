@@ -1,6 +1,4 @@
-package com.example.mytestservlet.model;
-
-
+package com.example.ideaautoservlet.model;
 
 public class User {
     private Long id;

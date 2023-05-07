@@ -1,8 +1,7 @@
-package com.example.mytestservlet.service;
+package com.example.ideaautoservlet.service;
 
 
-
-import com.example.mytestservlet.model.User;
+import com.example.ideaautoservlet.model.User;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
@@ -27,8 +26,14 @@ public class UserService {
 
     }
 
-    public void deleteUser(Long id){
-        userStore.remove(id);
+    public String  deleteUser(Long id){
+        if(userStore.containsKey(id)) {
+            userStore.remove(id);
+            return "User "+id +" successfully deleted";
+        }
+        else
+            return  "User "+id+" not possible to delete, no such user";
     }
+
 
 }

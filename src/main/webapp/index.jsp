@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>CRUD user api</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
+<h1><%= "Do you want to add some users?"%>
+</h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>

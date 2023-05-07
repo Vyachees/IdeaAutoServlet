@@ -13,6 +13,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="IdeaAutoServlet" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.0" />
+          <element id="library" level="project" name="Maven: org.json:json:20230227" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/IdeaAutoServlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
