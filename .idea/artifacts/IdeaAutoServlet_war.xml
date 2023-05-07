@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IdeaAutoServlet:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>IdeaAutoServlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="IdeaAutoServlet-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="IdeaAutoServlet:war exploded" />
+    </root>
+  </artifact>
+</component>
